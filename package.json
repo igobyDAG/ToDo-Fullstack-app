@@ -1,0 +1,14 @@
+{
+  "name": "evaluation-app",
+  "version": "1.0.0",
+  "description": "fullstack ToDo app",
+  "author": "dgonzalez-ias <dgonzalez@integralads.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "yarn run install:backend && yarn run install:frontend",
+    "install:backend": "cd backend && yarn install",
+    "install:frontend": "cd frontend && yarn install",
+    "start:backend": "cd backend && yarn start",
+    "start:frontend": "cd frontend && yarn run dev"
+  }
+}

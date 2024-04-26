@@ -1,0 +1,22 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.23.9",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "yarn run build && node lib/app.js",
+    "start:dev": "nodemon --exec \"yarn run build && node lib/app.js\" -e js --ignore lib/",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4"
+  }
+}

@@ -1,0 +1,10 @@
+.add-task-form {
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+}
+
+.text-fields {
+    display: flex;
+    gap: 10px;
+}

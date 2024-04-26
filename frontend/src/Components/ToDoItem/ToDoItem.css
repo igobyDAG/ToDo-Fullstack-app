@@ -1,0 +1,41 @@
+.todo-item-wrapper {
+    /* width: fit-content; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+    p {
+        margin: 0px;
+    }
+}
+.buttons {
+    display: flex;
+    margin-top: 14px;
+}
+
+.task-title-completed {
+    text-decoration: line-through;
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+
+    span {
+        margin-top: 13px;
+        font-size: 10px;
+    }
+}
+
+.edit-wrapper {
+    width: 500px;
+}
+
+.edit-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

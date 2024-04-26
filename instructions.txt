@@ -1,0 +1,19 @@
+This is your opportunity to showcase your skill to us. You are absolutely welcome and encouraged to ask
+questions if you need clarification.
+1. Please build a full-stack solution for a ToDo Web App, this application should be divided in a web app
+(using ReactJS) and an API for all the CRUD transactions you need
+2. Using your favorite unit test framework, write the unit tests you feel are necessary to adequately test the
+code you wrote as your answer to question one.
+3. Create a ReactJS web interface that will allow someone to use the ToDo web app, we talk about at point
+number one.
+4. All the tasks should be stored in a database, you can use any type of database you want.
+5. You can add as much functionality as you want, but the basic features, should be the following: show the
+complete list of tasks, these tasks should contain, a title, description creation date, and the status (pending
+or completed), a way we can add new tasks, a mechanism of deleting and existing tasks, and a mechanism
+to complete or return to pending status.
+6. Submit your code by a public or private repository like github. Your repository should include instructions
+on how to set up, compile & run your application. You can assume your instructions will be read by a
+developer.
+7. We will look at your GUI, API, DB layers so it’s important we are able to compile and run your
+application. Please also provide the database files (scripts, documents, etc.) for creating the schema (if
+using a relational db) and populating the required data.
